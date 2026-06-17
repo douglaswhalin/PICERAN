@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>P.Oxy.83.5364 Tax Receipt</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+                <idno type="filename">p.oxy.83.5364</idno>
+                <idno type="ddb-hybrid">p.oxy;83;5364</idno>
+                <idno type="HGV">786138</idno>
+                <idno type="TM">786138</idno>
+                <availability>
+                    <p>
+                        © Duke Databank of Documentary Papyri. This work is licensed under a
+                        <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">
+                            Creative Commons Attribution 3.0 License
+                        </ref>
+                        .
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Oxford</settlement>
+                        <repository>Sackler Library</repository>
+                        <idno>P.Oxy.83.5364</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papyrus</material>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>single column</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Oxyrhynchos</origPlace>
+                            <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                        </origin>
+                        <provenance type="located"> Findspot and circumstances/context
+                            <p>
+                                <placeName type="ancient" ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                                <placeName type="ancient" subtype="nome" ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                                <placeName type="ancient" subtype="region">Egypt</placeName>
+                            </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="hgv">
+                    <term>Receipt</term>
+                    <term>Tax</term>
+                    <term>Jews</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://doi.org/10.25446/oxford.20326167"/> 
+        <!-- The image does not load. It appears that the Oxford server is defunct. -->
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="grc" type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                    <supplied reason="lost">Ἠλίας κα</supplied>
+                    ὶ Ἀπφ
+                    <unclear>ο</unclear>
+                    <supplied reason="lost">ῦς</supplied>
+                    
+                    <lb n="2"/>
+                    <unclear>κ</unclear>
+                    <supplied reason="lost">εφαλαι</supplied>
+                    ωταὶ 
+                    <unclear>α</unclear>
+                    <gap reason="illegible" quantity="2" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    
+                    <lb n="3"/>
+                    <num value="8">η</num>
+                     ἰ
+                    <unclear>ν</unclear>
+                    δι
+                    <unclear>κ</unclear>
+                    τίων
+                    <supplied reason="lost">ος</supplied>
+                    <gap reason="lost" quantity="4" unit="character"/>
+                    
+                    <lb n="4"/>
+                    <hi rend="diaeresis">Ἰ</hi>
+                    σιδώρου 
+                    <choice>
+                        <reg>κεφαλαιωτῇ</reg>
+                        <orig>κεφαλεωτ
+                            <unclear>ῇ</unclear>
+                        </orig>
+                    </choice>
+                     Ἰουδαί-
+                    
+                    <lb n="5" break="no"/>
+                    ων χαίρειν. ἔσχαμεν παρὰ
+                    <subst>
+                        <add place="inline">παρὰ</add>
+                        <del rend="corrected">υαρα</del>
+                    </subst>
+
+                    <lb n="6"/>
+                    σοῦ ὑπὲρ 
+                    <num value="8">η</num>
+                     ἰνδικτίωνος
+
+                    <lb n="7"/>
+                    τὸ 
+                    <choice>
+                        <reg>αἱροῦν</reg>
+                        <orig>ἑροῦν</orig>
+                    </choice>
+                     σοι μέρος πλήρης
+
+                    <lb n="8"/>
+                    καὶ οὐδ
+                    <unclear>έ</unclear>
+                    να λόγον ἔχομεν
+
+                    <lb n="9"/>
+                    πρὸς <choice>
+                        <reg>σέ</reg>
+                        <orig>σαί</orig>
+                    </choice>
+                    .
+                    <space quantity="1" unit="line"/>
+                    
+                    <lb n="10"/>
+                    Ἀπφοῦς καὶ Ἠλίας
+
+                    <lb n="11"/>
+                    <choice>
+                        <reg>σεσημειώμεθα</reg>
+                        <orig>
+                            <expan>
+                                σεσημιώμε
+                                <unclear>θ</unclear>
+                                <ex>α</ex>
+                            </expan>
+                        </orig>
+                    </choice>
+                    . Φαωφι 
+                    <num value="9">θ</num>
+                    .
+                </ab>
+            </div>
+            <div xml:lang="en" type="translation" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Elias and Aphous
+                    <lb n="2"/>chiefs of the [...]
+                    <lb n="3"/>the 5th Indiction [...]
+                    <lb n="4"/>of Isidorus, chief of the Jews-
+                    <lb n="5"/>, greetings. We have received from you
+                    <lb n="6"/>the full portion due to you
+                    <lb n="7"/>for the 5th Indiction
+                    <lb n="8"/>and we have no complaint
+                    <lb n="9"/>against you.
+                    <space quantity="1" unit="line"/>
+                    <lb n="10"/>Aphous and Elias
+                    <lb n="11"/>we have sent. Phaophi 8.
+                </ab>
+            </div>
+            <div type="bibliography">
+                <p>
+                    <ref type="bibl" target="https://www.trismegistos.org/biblio/786138">TM 786138</ref>
+                    <ref type="bibl" target="https://papyri.info/ddbdp/p.oxy;83;5364">HGV P.Oxy 83 5364</ref>
+                    <ref type="bibl" target="https://aquila.zaw.uni-heidelberg.de/hgv/786138">P.Oxy. LXXXIII 5364</ref>
+                    <ref type="bibl" target="https://doi.org/10.25446/oxford.20326167">P. Oxy. LXXXIII 5364. Tax Receipt</ref>
+                    <!-- Not sure what is best practice for signalling multiple source webpages.
+                     The image displayer at Oxford is not working as of 2026.05.29 -->
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

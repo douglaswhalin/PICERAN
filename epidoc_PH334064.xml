@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph of the physician Sergius Hestiaios</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>The Packard Humanities Institute Epigraphy Project</authority>
+                <idno type="filename">334064</idno>
+                <idno type="regionalID">I.Aquileia 491</idno>
+                <idno type="CIL">V 868</idno>
+                <idno type="IG">XIV 2343</idno>
+                <idno type="SEG">53.1068</idno>
+                <publisher>
+                    The Packard Humanities Institute Epigraphy Project, reproduced under "Fair Use" principals for personal study.
+                    <ref type="source">https://inscriptions.packhum.org/text/334064</ref>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>The Packard Humanities Institute Epigraphy Project</repository>
+                        <idno>PH 334064</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>limestone</material>
+                                    <objectType>funerary base</objectType>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>single column</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="#pl_aquileia">Aquileia</placeName>
+                                <placeName ref="#pl_venetia">Venetia</placeName>
+                                <placeName ref="#pl_italia">Italy</placeName>
+                            </origPlace>
+                            <origDate notBefore="0158" precision="medium">After AD 158</origDate>
+                        </origin>
+                        <provenance type="found">unknown
+                        </provenance>
+                        <provenance type="observed">unknown
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listPerson>
+                    <person xml:id="pe_ServiliusFabianus">
+                        <persName>
+                            <name>Marcus Servilius Fabianus Maximus</name>
+                        </persName>
+                        <idno type="dbpedia">http://dbpedia.org/resource/Marcus_Servilius_Fabianus_Maximus</idno>
+                    </person>
+                    <person xml:id="pe_consul">
+                        <persName>
+                            <name>consul</name>
+                        </persName>
+                            <idno type="dbpedia">http://dbpedia.org/resource/Roman_consul</idno>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="pl_aquileia">
+                        <placeName>
+                            <name>Aquileia</name>
+                        </placeName>
+                        <idno type="dbpedia">http://dbpedia.org/resource/Aquileia</idno>
+                    </place>
+                    <place xml:id="pl_venetia">
+                        <placeName>
+                            <name>Venetia</name>
+                        </placeName>
+                        <idno type="dbpedia">http://dbpedia.org/resource/Veneto</idno>
+                    </place>
+                    <place xml:id="pl_italia">
+                        <placeName>
+                            <name>Italia</name>
+                        </placeName>
+                        <idno type="dbpedia">http://dbpedia.org/resource/Italy</idno>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>funerary monument</term>
+                    <term>physician</term>
+                    <term>consul</term>
+                    <term>female patron</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="unknown"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="grec" type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> 
+                    <expan><abbr>Θ</abbr><ex>εοῖς</ex></expan>
+                    ∙ 
+                    <expan><abbr>Κ</abbr><ex>αταχθονίοις</ex></expan>
+                    <lb n="2"/>Σεργίῳ
+                    <lb n="3"/>  Ἑστιαίῳ
+                    <lb n="4"/><persName ref="#pe_ServiliusFabianus">Σερουιλίου
+                    <lb n="5"/>Φαβιανοῦ</persName>
+                    <lb n="6"/>  <objectName ref="#pe_consul">ὑπατικοῦ</objectName>
+                    <lb n="7"/>φίλῳ ∙ καὶ ∙ ἰατρῷ
+                    <lb n="8"/>  Οὐιψανία
+                    <lb n="9"/>   Ὁστιλία
+                    <lb n="10"/>  ἐποίησεν. 
+                </ab>
+            </div>
+            <div type="translation">
+                <p>To the g(ods); to the u(nderworld).
+                    For Sergios Hestiaios, 
+                    friend and physician 
+                    of the <objectName ref="#pe_consul">consul</objectName> <persName ref="#pe_ServiliusFabianus">Seruilius Fabianus</persName>, 
+                    Vipsania Hostilia 
+                    made this.</p>
+            </div>
+            <div type="commentary">
+                <p><persName ref="#pe_Servilius Fabianus">Marcus Servilius Fabianus Maximus</persName> is a known historical figure. He was <objectName ref="#pe_consul">suffect consul</objectName> in AD 158.
+                    Notably, this funerary monumnet was made (or at least commissioned) by a woman, Vipsania Hostilia.
+                </p>
+            </div>
+            <div type="bibliography">
+                <p>
+                    <ref type="bibl" target="https://inscriptions.packhum.org/text/141567">IG 14 1567</ref>
+                    <!-- Alternative listing of the inscription. -->
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
